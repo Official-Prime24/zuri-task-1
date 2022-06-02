@@ -1,0 +1,193 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* header */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.h-box {
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  box-shadow: 4px 0px 16px  black;
+}
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 5px;
+}
+.right-section {
+  display: flex;
+  align-items: center;
+}
+.right-section ul{
+  list-style: none;
+  display: flex; 
+}
+.navigation li{
+  margin-right: 64px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+}
+
+/*about*/
+.c-box {
+  width: 100%;
+  background: url(img/bg.png) black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 32px 0;
+}
+.main-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 120px auto;
+}
+.profile-pic {
+  max-width: 481px;
+  min-height: 334px;
+  border-radius: 16px;
+}
+.profile-pic:hover {
+  border: none;
+  border-right: solid 12px green;
+  border-bottom: solid 12px green;
+}
+.first-section p, h3 {
+  padding: 16px 64px 0 0;
+  font-size: 18px;
+}
+.first-section ul {
+ list-style: none;
+}
+.first-section li {
+  padding: 2px 0;
+}
+.contact-me {
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 16px 32px;
+  background-color: green;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-style: none;
+}
+.b-box {
+  padding: 32px 0;
+}
+
+/*footer*/
+.connect {
+  text-align: center;
+  padding: 70px 0 ;
+  color: white;
+  background-color: black;
+}
+.social-media ul{
+  display: flex;
+  width: 30%;
+  margin: 32px auto;
+  list-style: none;
+}
+.social-media li {
+  padding: 0 12px;
+  border-right: 1px solid white;
+}
+ .box {
+  color: white;
+}
+
+/* Contact */
+.create-contact {
+  padding: 120px 0;
+}
+.main {
+  margin: 120px auto;
+}
+input[type="text"], input[type="email"], textarea, button, input[type="password"], select {
+  width: 50%;
+  padding: 6px 12px;
+  margin: 16px 0;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid white;
+  box-shadow: 0 0 8px #B0B0B0;
+}
+label, button {
+  font-size: 18px;
+}
+button {
+  background: green;
+  padding: 12px;
+  cursor: pointer;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+}
+.contact-box {
+  width: 100%;
+  background: url(img/a.jpg) rgb(54, 11, 140);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 32px 0;
+}
+
+/* register */
+.outer-section {
+  background: url(img/w.jpg) white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 32px 0;
+}
+.register-section {
+  padding: 100px 0;
+  width: 45%;
+  margin: 0 auto;
+  
+}
+.inner-register {
+  background-color: rgba(27, 27, 50, 0.8);
+  padding: 32px;
+  border-radius: 16px;
+}
+.create-box input[type="text"],  input[type="password"], select {
+  width:100%;
+  box-shadow: none;
+}
+.create-box label {
+  color: white;
+}
+.create input[type="email"] {
+  width:100%;
+  box-shadow: none;
+}
+.create label {
+  color:white;
+}
+.button {
+  width:100%;
+  box-shadow: none;
+}
+.inner-register h1 {
+  padding: 16px 0;
+  color: white;
+  text-align: center;
+}
